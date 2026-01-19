@@ -1,0 +1,99 @@
+body{
+    background-color: #6e63c4;
+    
+}
+.container{
+    background: white;
+    border-radius : 20px; 
+    box-shadow: -1px -2px 17px -1px #5E5E5E;
+    margin : 30%; 
+    padding: 30px;
+    width : 100%; 
+    max-width: 600px;
+    
+    
+}
+.titre{
+    color :#6e63c4; 
+    text-align: center;
+    font-size : 2.5em; 
+}
+
+
+.menu{
+    background-color: rgb(223 221 221 / 23%);
+    border-radius: 15px;
+    padding: 15px;
+    
+    margin-bottom : 3%;
+    display: flex;
+    justify-content: center;
+}
+.restart{
+    text-align: center;
+    font-size: 1.5em;
+    color : white ; 
+    background-color: #6e63c4;
+    
+    border-radius: 10px;
+    
+    padding: 5px 17px 5px 17px ;
+    
+}  
+    
+.label{
+    font-size: 0.9em; 
+    color : #666; 
+    margin-bottom: 5px;
+}
+.col{
+    text-align: center;
+    width : 100%;  
+}
+.lign{
+    margin-top : 10px; 
+}
+.valeur{
+    Color : #6e63c4; 
+    font-size: 1.3em;
+    font-weight: bold; 
+}
+
+.card:hover{
+    transform: scale(1.07);
+
+}
+.card.flipped {
+    background: white;
+    border: 3px solid #667eea;
+}
+
+
+.newgame{
+    text-align: center;
+    margin : 17px; 
+    padding : 15px; 
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;   /* ← descend à la ligne */
+    gap: 25px;
+    justify-content: center;
+
+
+}
+.card {
+    font-size: 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    align-items: center;
+    margin : 10px; 
+    padding : 20px; 
+    border-radius: 15px;
+    width: 50px; 
+    text-align: center;
+    color: white; 
+  
+    
+}

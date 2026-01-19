@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta  charset ="utf-8">
+        <title> Memory Game </title>
+        <link rel="stylesheet" href="./style.css?v=2">
+        <!-- Oblige de chargé le css pour le cache prbm -->
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="titre"> 🧠 Memory Game </h1>
+            <div class="bloc">
+                <div class="menu">
+                <div class="col">
+                    <div class="lign label" > Coups  </div>
+                    <div class="lign valeur" > 1 </div>
+                </div>
+                <div class="col">
+                    <div class="lign label" > Paires trouvées </div>
+                    <div class="lign valeur" > 0/8 </div>
+                </div>
+                <div class="col">
+                    <div class="lign label" > Temps </div>
+                    <div class="lign valeur" > 1000s </div>
+                </div>
+            </div>
+            <div class="cards " id ="gamebox">
+                
+            </div>
+            <div class="newgame">
+                <button class="restart" onclick="afficher()"> Nouvelle partie </button>
+            </div>
+            </div>
+            
+        </div>
 
+    </body>
+    <script src="script.js?v=2"></script>
+</html>
