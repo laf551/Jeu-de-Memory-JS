@@ -97,3 +97,10 @@ body{
   
     
 }
+.card.matched {
+    background: #4ade80;
+    color: white;
+    cursor: default;
+    opacity: 0.6;
+    border: 1px #265844;
+}
