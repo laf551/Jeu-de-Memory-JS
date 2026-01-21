@@ -8,10 +8,39 @@ body{
     box-shadow: -1px -2px 17px -1px #5E5E5E;
     margin : 30%; 
     padding: 30px;
-    width : 100%; 
     max-width: 600px;
+    width : 100%; 
     
     
+    
+    
+}
+#information {
+    /*text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+   */
+     
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    background: #cfdbef;
+    color: #3d3fab;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    animation: slideIn 0.5s;
+}
+
+ @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
 }
 .titre{
     color :#6e63c4; 
@@ -69,6 +98,7 @@ body{
 }
 
 
+
 .newgame{
     text-align: center;
     margin : 17px; 
@@ -103,4 +133,9 @@ body{
     cursor: default;
     opacity: 0.6;
     border: 1px #265844;
+}
+.card.cardback{
+    background: white; 
+    border: 3px solid #667eea;
+    
 }
